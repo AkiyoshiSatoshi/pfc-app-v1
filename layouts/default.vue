@@ -4,6 +4,12 @@
   </div>
 </template>
 
+<script>
+export default {
+  // middleware: "auth",
+}
+</script>
+
 <style>
 html {
   font-family:
@@ -58,5 +64,14 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+body {
+  width: 425px;
+  margin: 0 auto;
+  background: #E5E5E5;
+  height: 896px;
+}
+html {
+  background: black;
 }
 </style>
